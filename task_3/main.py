@@ -1,12 +1,7 @@
-import random
+def task_3(n):
+    i=0
+    while n>=i:
+        i += 1
+        print(i*i-i*n)
 
-from list import *
-
-N = 8
-i = 1
-
-list = List()
-
-list.Add(random.randint(1, 9))
-
-list.Print()
+task_3(2)
